@@ -4,7 +4,7 @@ let hora = new Date().toLocaleTimeString();
 setInterval(()=>{
     hora = new Date().toLocaleTimeString();
     horaID.innerText = hora;
-},1000)
+},1001)
 
 
 

@@ -1,7 +1,7 @@
 const productos = [
     {
         id: "remera-01",
-        producto: "Remera 01",
+        producto: "Remera 1",
         imagen: "./img/remera-01.png",
         precio: 1000,
         categoria: {
@@ -11,7 +11,7 @@ const productos = [
     },
     {
         id: "remera-02",
-        producto: "Remera 02",
+        producto: "Remera 2",
         imagen: "./img/remera-02.png",
         precio: 1000,
         categoria: {
@@ -21,7 +21,7 @@ const productos = [
     },
     {
         id: "remera-03",
-        producto: "Remera 03",
+        producto: "Remera 3",
         imagen: "./img/remera-03.png",
         precio: 1000,
         categoria: {
@@ -31,7 +31,7 @@ const productos = [
     },
     {
         id: "remera-04",
-        producto: "Remera 04",
+        producto: "Remera 4",
         imagen: "./img/remera-04.png",
         precio: 1000,
         categoria: {
@@ -41,7 +41,7 @@ const productos = [
     },
     {
         id: "remera-05",
-        producto: "Remera 05",
+        producto: "Remera 5",
         imagen: "./img/remera-05.png",
         precio: 1000,
         categoria: {
@@ -53,7 +53,7 @@ const productos = [
                                             //Pantalones
         {
         id: "pantalon-01",
-        producto: "Pantalon 01",
+        producto: "Pantalon 1",
         imagen: "./img/pantalon-01.png",
         precio: 1000,
         categoria: {
@@ -63,7 +63,7 @@ const productos = [
     },
     {
         id: "pantalon-02",
-        producto: "Pantalon 02",
+        producto: "Pantalon 2",
         imagen: "./img/pantalon-02.png",
         precio: 1000,
         categoria: {
@@ -73,7 +73,7 @@ const productos = [
     },
     {
         id: "pantalon-03",
-        producto: "Pantalon 03",
+        producto: "Pantalon 3",
         imagen: "./img/pantalon-03.png",
         precio: 1000,
         categoria: {
@@ -83,7 +83,7 @@ const productos = [
     },
     {
         id: "pantalon-04",
-        producto: "Pantalon 04",
+        producto: "Pantalon 4",
         imagen: "./img/pantalon-04.png",
         precio: 1000,
         categoria: {
@@ -93,7 +93,7 @@ const productos = [
     },
     {
         id: "pantalon-05",
-        producto: "Pantalon 05",
+        producto: "Pantalon 5",
         imagen: "./img/pantalon-05.png",
         precio: 1000,
         categoria: {
@@ -104,7 +104,7 @@ const productos = [
                                             //Buzos
     {
         id: "buzo-01",
-        producto: "Buzo 01",
+        producto: "Buzo 1",
         imagen: "./img/buzo-01.png",
         precio: 1000,
         categoria: {
@@ -114,7 +114,7 @@ const productos = [
     },
     {
         id: "buzo-02",
-        producto: "Buzo 02",
+        producto: "Buzo 2",
         imagen: "./img/buzo-02.png",
         precio: 1000,
         categoria: {
@@ -124,7 +124,7 @@ const productos = [
     },
     {
         id: "buzo-03",
-        producto: "Buzo 03",
+        producto: "Buzo 3",
         imagen: "./img/buzo-03.png",
         precio: 1000,
         categoria: {
@@ -134,7 +134,7 @@ const productos = [
     },
     {
         id: "buzo-04",
-        producto: "Buzo 04",
+        producto: "Buzo 4",
         imagen: "./img/buzo-04.png",
         precio: 1000,
         categoria: {
@@ -144,7 +144,7 @@ const productos = [
     },
     {
         id: "buzo-05",
-        producto: "Buzo 05",
+        producto: "Buzo 5",
         imagen: "./img/buzo-05.png",
         precio: 1000,
         categoria: {
