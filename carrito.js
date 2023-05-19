@@ -100,7 +100,7 @@ function ActualizarTotal(){
 
 comprar.addEventListener("click", () => {
     function comprarProductos(){
-        productosEnCarrito.length = 1;
+        productosEnCarrito.length = 0;
         localStorage.removeItem("carrito")
         localStorage.setItem("carrito",JSON.stringify(productosEnCarrito))
         cargarProductos();
