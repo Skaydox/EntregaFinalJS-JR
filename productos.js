@@ -1,7 +1,7 @@
 const productos = [
     {
         id: "remera-01",
-        producto: "remera 01",
+        producto: "Remera 01",
         imagen: "./img/remera-01.png",
         precio: 1000,
         categoria: {
@@ -11,7 +11,7 @@ const productos = [
     },
     {
         id: "remera-02",
-        producto: "remera 02",
+        producto: "Remera 02",
         imagen: "./img/remera-02.png",
         precio: 1000,
         categoria: {
@@ -21,7 +21,7 @@ const productos = [
     },
     {
         id: "remera-03",
-        producto: "remera 03",
+        producto: "Remera 03",
         imagen: "./img/remera-03.png",
         precio: 1000,
         categoria: {
@@ -31,7 +31,7 @@ const productos = [
     },
     {
         id: "remera-04",
-        producto: "remera 04",
+        producto: "Remera 04",
         imagen: "./img/remera-04.png",
         precio: 1000,
         categoria: {
@@ -41,7 +41,7 @@ const productos = [
     },
     {
         id: "remera-05",
-        producto: "remera 05",
+        producto: "Remera 05",
         imagen: "./img/remera-05.png",
         precio: 1000,
         categoria: {
