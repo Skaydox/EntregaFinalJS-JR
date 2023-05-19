@@ -1,0 +1,71 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TOASTIFY -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- Fuentes para la página -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,700&family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+     <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Proyecto final JS</title>
+</head>
+<body>
+    <div class="wrapper">
+        <aside>
+            <div class="extra-data">
+                <div class="hora">
+                    <p>Hora local</p>
+                    <span id="hora"></span>
+                </div>
+            </div>
+            <div class="panelDeControl">
+                <div class="botones">
+                    <ul>
+                        <li><button id="todos" class="menu-botones active">Todos los articulos</button><li>
+                        <li><button id="remera" class="menu-botones">Remeras</button></li>
+                        <li><button id="pantalon" class="menu-botones">Pantalones</button></li>
+                        <li><button id="buzo" class="menu-botones">Buzos</button></li>
+
+                        
+                            <a href="./carrito.html">
+                                <li><button  class="menu-carrito">
+                                <i class="fa-sharp fa-solid fa-cart-shopping"></i> Carrito <span id="carrito" class="carrito" class="carritoNum">0</span>
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="main">
+            <header>
+                <div class="logo">
+                    <h1>Proyecto final Javascript</h1>
+                    <h3>Redondo Julián</h3>
+                </div>
+                <div class="comision">
+                    <h3>Comisión 51610</h3>
+                </div>
+            </header>
+            <main>
+                <div id="contenedorProductos" class="content">
+                    <!-- Acá se va a injectar todo desde JS -->
+                </div>
+            </main>
+            <footer></footer>
+        </div>
+    </div>
+
+    <!-- Toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/f941a2022c.js" crossorigin="anonymous"></script>
+    <!-- Javascript -->
+    <script src="./productos.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

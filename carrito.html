@@ -1,0 +1,88 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fuentes para la página -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,700&family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+     <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Carrito</title>
+</head>
+<body>
+    <div class="wrapper">
+        <aside>
+            <div class="extra-data">
+                <div class="hora">
+                    <p><i class="fa-solid fa-house"></i> Hora local</p>
+                    <span id="hora"></span>
+                </div>
+                <div class="hora">
+                    <p><i class="fa-solid fa-landmark"></i> Dolar oficial</p>
+                    <div class="compra">
+                        <p>Compra: <span id="dolarCompra"></span></p>
+                    </div>
+                    <div class="venta">
+                        <p>Venta: <span id="dolarVenta"></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="panelDeControl">
+                <!--                 
+                <div class="search-main">
+                    <p>Buscar</p>
+                    <div class="search">
+                        <input type="text" placeholder="Inserte lo que quiera buscar...">
+                        <a href="#">
+                            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+                </div> -->
+                <div class="botones">
+                    <ul>
+                        <a href="./index.html">
+                            <li><button id="volver" class="menu-botones active">Seguir comprando</button><li>
+                        </a>
+
+                        <li><button  class="menu-carrito active">
+                            <p>
+                                <i class="fa-sharp fa-solid fa-cart-shopping"></i> Carrito <span id="carrito" class="carrito" class="carritoNum">0</span>
+                            </p></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="main">
+            <header>
+                <div class="logo">
+                    <h1>Proyecto final Javascript</h1>
+                    <h3>Redondo Julián</h3>
+                </div>
+                <div class="comision">
+                    <h3>Comisión 51610</h3>
+                </div>
+            </header>
+            <main>
+                <div id="contenedorProductos" class="content">
+                    <!-- Acá se va a injectar todo desde JS -->
+                </div>
+                <div class="carritoTotal"><b>TOTAL: </b><span id="total">0$</span></div>
+                <button id="comprar">Comprar</button>
+            </main>
+            <footer></footer>
+        </div>
+    </div>
+
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/f941a2022c.js" crossorigin="anonymous"></script>
+    <!-- Javascript -->
+    <script src="./productos.js"></script>
+    <script src="./carrito.js"></script>
+    <!-- Sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
